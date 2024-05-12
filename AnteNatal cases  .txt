@@ -1,0 +1,71 @@
+AnteNatal cases : 
+
+Name, Age, Address, Aadhar number, Married For,
+Obstetric History : GPAL
+
+LMP : 	
+
+Expected Date of Delivery : 
+
+Specific History in previous pregnancy : 
+
+1 - previous delivery by : Normal, Caeserian, Ventouse 
+	
+2 -  Pregnancy related complications
+
+
+
+	
+
+Investigation (Documents): 
+
+1 - Blood investigation 
+
+2 - Urine 
+
+3 - UltraSound 
+
+4 - Xray
+
+Changes to be made : 
+
+1 - Patient Id 
+
+2 - Date of consultation  (multiple values and new value will be added)
+
+
+
+ 
+
+
+
+Infertility cases: 
+
+Primary : 
+1 - Age (Husband and wife), Married For, Name, Address, Aadhar number
+2 - Investigations (same as above) 
+
+Secondary : 
+ 1 - Age (Husband and wife), Married For, Name, Address, Aadhar number
+2 - Obstetric History : GPAL
+3 - Complications in previous pregnancy 
+4 - Investigations 
+
+
+
+General Cases:
+ 1 - Age (Husband and wife), Married For, Name, Address, Aadhar number
+
+ 2 - Diagnosis 
+
+
+
+Manager Portal : 
+
+Appointments , 
+Add Patient (define main categories, New/ Follow-up patient), personal Info , Aadhar etc
+
+
+ 
+
+

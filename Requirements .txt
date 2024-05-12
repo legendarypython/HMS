@@ -1,0 +1,94 @@
+Requirements: 
+
+1- Different Portals for owner, manager and Patients (First focus will be owner) - Add login functionality 
+
+2 - Maintain records corresponding to every patient - Records can be viewed/edited.  Records can have attachments.
+
+3 - Patient / General portal with no login where appointments can be booked - Can add payments and medical articles too later.
+
+4 - Patient Records will have -: Personal Details, Aadhar (attachment), Prescriptions (attachments), Medical documents (attachments)
+
+5 - Owner portal will have a Records list with search - can edit/ delete/ add a record or its attachments. 
+
+6 - Manager portal can view and add records and add attachments. 
+
+mongodb+srv://rishabhagarwalcse14:aps2EFhKhBDNv44z@cluster0.c09ri4w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+
+Based on the requirements you've provided, here's a breakdown of the steps you can take to build the hospital records management system:
+
+Setup Backend with Node.js and Express:
+
+Install Node.js if you haven't already.
+Initialize a new Node.js project and install Express.js and other necessary packages.
+Set up routes for handling authentication and API endpoints for managing records.
+Implement authentication middleware to verify user credentials for owner, manager, and patient portals.
+Database Design and Integration:
+
+Design your database schema to store patient records, user credentials, and other necessary data.
+Choose a suitable database system (e.g., MongoDB, PostgreSQL) and integrate it with your Node.js application using an ORM like Mongoose or Sequelize.
+Authentication and Authorization:
+
+Implement user authentication using techniques like JWT (JSON Web Tokens) or session-based authentication.
+Define user roles (owner, manager, patient) and permissions to restrict access to specific functionalities and data.
+Owner Portal:
+
+Create login functionality for owners to access their portal.
+Implement CRUD operations for managing patient records, including adding/editing/deleting records and attachments.
+Develop a search feature to filter records based on various criteria.
+Ensure that only owners can access and modify records in their portal.
+Manager Portal:
+
+Set up authentication for managers and create a separate portal for them.
+Implement functionalities for managers to view patient records and add new records and attachments.
+Ensure that managers have restricted access compared to owners, such as not being able to delete records.
+Patient Portal:
+
+Create a separate portal for patients without requiring login.
+Implement features for patients to view their records, personal details, prescriptions, and medical documents.
+Add functionality for patients to book appointments and view medical articles if required.
+Attachments Handling:
+
+Implement functionality to upload and store attachments (e.g., Aadhar, prescriptions, medical documents) securely.
+Utilize cloud storage services or database storage options based on your requirements and scalability needs.
+Ensure proper validation and security measures to prevent unauthorized access to attachments.
+Frontend with React (for Owner and Manager Portals):
+
+Set up React for building the user interface of owner and manager portals.
+Use React Router for client-side routing to navigate between different pages and components.
+Create UI components for displaying records, forms for adding/editing records, and search functionality.
+Testing and Deployment:
+
+Test your application thoroughly to ensure functionality, security, and usability.
+
+Deploy your Node.js backend and React frontend to a hosting provider, ensuring proper configuration for security and performance.
+Maintenance and Updates:
+
+Regularly update your application to fix bugs, address security vulnerabilities, and add new features as needed.
+Monitor application performance and user feedback to identify areas for improvement and optimization.
+By following these steps, you can build a hospital records management system that meets the requirements outlined, providing separate portals for owners, managers, and patients with the necessary functionalities for managing records securely and efficiently.
+
+
+- I think my biggest achievment here was creating and maintaing the edgro system. I was able to work in collabration with an external party for API integration which was something I had not done before. I also worked together with people from Product, Ops and Finance which helped me learn how the company works on a non-tech scale. The edgro system also generated a lot of revenue for the company and was the highest priority task when I started implementing it. 
+
+- I am responsible for maintaing the complete RPS flow at nbfc layer in our system, I have introduced features like RPS batch uploader, 
+RPS Repull feature . I also made a generic validation structure for RPS to maintain RPS sancticity in system . 
+
+- I was involved in the revamp of Avanse API system with my colleague Mohmmad Kaif. 
+
+- I am able to handle requests for changes in multiple services in our system - like changes related to Agreement, Report . If I have to make a feature which involves changes in other services which I have not used before, I try to make the changes myself. 
+
+
+- I wont say I am proficient at it but I can do front end tasks too when needed - I was responsible for making all the frontend related to edgro. 
+
+- I am regularly involved in Tech Ops calls to resolve issues related to not only my service or the services on which I have worked, but other services in our codebase as well. 
+
+
+
+Before joining Propelld, my proficiency was mainly in front-end mobile App development. In the last 1.5 years I can say with cofidence, I have got a fairly deep understanding in web App development, especially the backend. I have got a deeper understanding in writing APIs, working with mongo and sql, maintaing backend on such a  scale, Code design patterns etc
+
+On a personal level, i feel like before joining here, I did not use to take part in discussions as much as I am now - i hope my colleagues feel the same. 
+
+2vt5mt0gli4
+
